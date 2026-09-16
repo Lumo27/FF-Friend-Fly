@@ -4,7 +4,7 @@ Frontend de Splitwaisito (React 18 + Vite + TypeScript + Tailwind).
 
 ```
 npm install
-cp .env.example .env   # completar credenciales de Firebase
+cp .env.example .env.local   # completar con credenciales de Firebase (pedírselas a Lucas)
 npm run dev
 ```
 

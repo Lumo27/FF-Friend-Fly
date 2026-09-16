@@ -30,7 +30,7 @@ Instalable desde el navegador en cualquier dispositivo, sin pasar por ninguna st
 
 1. Cloná el repo.
 2. `cd web && npm install && npm run dev`.
-3. Copiá `web/.env.example` a `web/.env` con las credenciales de Firebase (Auth/Firestore/Storage) del proyecto.
+3. Copiá `web/.env.example` a `web/.env.local` y completalo con las credenciales de Firebase (Auth/Firestore/Storage) — pedíselas a Lucas, no están en el repo.
 4. Revisá el tablero de Trello para autoasignarte una tarjeta.
 
 ## Flujo de trabajo (Git)
