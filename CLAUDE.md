@@ -12,6 +12,7 @@ Clon gratuito de Splitwise para el trabajo práctico integrador de Aplicaciones 
 - **Ruteo:** React Router v6 — stack de login + tabs (Grupos, Actividad, Perfil) + pantallas modales.
 - **Fechas:** date-fns. **Íconos:** lucide-react. **Gráficos:** recharts (para el extra de gráfico de gastos por categoría).
 - **PWA:** `vite-plugin-pwa` — manifest + service worker (Workbox), instalable desde el navegador en cualquier dispositivo, sin pasar por ninguna store.
+- **Testing:** Vitest — mismo motor que Vite (sin config extra para ESM/TS), API compatible con Jest, más rápido.
 - **Backend/datos:** Firebase — Authentication (proveedor de Google), Firestore, Storage (fotos de ticket), Cloud Functions (simplificación de deudas server-side).
 - **Cámara y GPS:** APIs estándar del navegador — `<input type="file" capture="environment">` / `getUserMedia` para la foto del ticket; `navigator.geolocation` + geocodificación inversa para la ubicación (editable a mano).
 
